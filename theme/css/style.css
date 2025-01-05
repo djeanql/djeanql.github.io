@@ -1,0 +1,90 @@
+
+:root {
+--pink: #FFCFEF;
+--bg: #161616;
+--fg: white;
+}
+
+
+body {
+background-color: var(--bg);
+color: white;
+font-family: "Libre Baskerville";
+text-align: center ;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center ;
+}
+
+#menu a, nav, ul, li, h {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-decoration: none;
+    color: white;
+}
+#menu ul li {
+    list-style-type: none;
+    display: inline;
+    text-align: right;
+}
+#menu li.active > a {
+    background-color: var(--pink);
+    color: var(--bg);
+}
+
+
+h1 { color: var(--pink) ; }
+h2 { color: var(--pink) ; }
+h3 { color: white ; }
+h4 { color: white ; }
+h5, h6 { color: cornsilk ; }
+
+a {
+    color: inherit;
+    text-decoration-line: underline;
+    text-decoration-color: var(--pink);
+    text-decoration-thickness: calc(1em / 7);
+}
+
+a:hover { color: var(--pink); text-shadow: 0 0 0.5em var(--pink); }
+
+header {
+    text-align: center ;
+    padding-bottom: 15pt ;
+}
+
+header h1 {
+    font-size: 30pt ;
+    margin-bottom: 0 ;
+}
+
+header h2 {
+    margin-top: 0 ;
+    font-style: italic ;
+    padding: .5em ;
+}
+
+ul {
+list-style-type: "✦"; 
+display: inline-block;
+text-align:left;
+}
+
+.libre-baskerville-regular {
+font-family: "Libre Baskerville", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.libre-baskerville-bold {
+font-family: "Libre Baskerville", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+font-family: "Libre Baskerville", serif;
+font-weight: 400;
+font-style: italic;
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348 522">
+  <rect x="156.888" width="35.366" height="522" style="fill: rgb(255, 255, 255);"/>
+  <rect x="147.514" y="35.641" width="34.63" height="225.713" style="transform-box: fill-box; transform-origin: 50% 50%; fill: rgb(255, 255, 255);" transform="matrix(0.707106, 0.707107, -0.707107, 0.707106, 91.767115, -56.726237)"/>
+  <rect x="-146.48" y="-35.527" width="34.389" height="224.99" style="fill: rgb(255, 255, 255); transform-origin: -129.293px 76.968px;" transform="matrix(-0.707106, 0.707107, 0.707107, 0.707106, 220.388371, 14.21003)"/>
+</svg>
