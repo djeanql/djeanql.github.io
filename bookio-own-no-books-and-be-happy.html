@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>Zeno</title>
+	<link rel="stylesheet" type='text/css' href="/theme/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&ampdisplay=swap" rel="stylesheet">
+        <meta charset="utf-8" />
+
+
+    <meta name="tags" content="decentralisation" />
+    <meta name="tags" content="crypto" />
+    <meta name="tags" content="exposee" />
+
+</head>
+
+<body id="index" > <!-- class="home"-->
+	<div style="margin: 1em auto; max-width: 80ch;">
+	<pre class="header">
+	  <h1 class="header" style="margin-bottom: 0px;"><img src="/theme/images/zeno.png" style="height: 50px;"> Zeno<img src="/theme/images/algiz.svg" style="height: 50px;"></h1>
+<a href="/" class="header">/index</a> <a href="/pages/about.html" class="header">/about</a> <a rel="alternate" type="application/atom+xml" href="/feeds/all.atom.xml" class="header">/rss</a> -------------
+  </pre>
+</br>
+
+<nav id="menu" style="text-align: left ;"><ul>
+    <li class="active"><a href="/tag/decentralisation.html">decentralisation</a> - </li>
+    <li class="active"><a href="/tag/crypto.html">crypto</a> - </li>
+    <li class="active"><a href="/tag/exposee.html">exposee</a> </li>
+    <li></li>
+</ul></nav>
+
+<section id="content" class="body">
+  <div class="entry-content">
+    <h2>Book.io: Own No Books and Be Happy</h2>
+<p>Book.io is an online publishing platform with great promise and lofty ambitions. Launched in 2022, it aims to revolutionise digital book ownership, offering authors more control and a larger share of profits. The eBook market is currently dominated by large companies monopolising the market and taking advantage of both authors and consumers. When you purchase an eBook from Amazon, you do not truly own the book as you would with physical books. Rather, you are granted a licence to access that book under specific conditions. For the majority of people, this is never considered, as most online bookstores are unlikely to revoke access arbitrarily, but as soon as you want to gift the book after reading it or resell it, you find that you can't. This is one example of the many problems with modern eBook platforms that book.io aims to solve, by leveraging decentralised encrypted assets (DEAs) to ensure true ownership of books. DEAs are essentially tokens that live on the Cardano blockchain that represent ownership of a certain book and can be transferred, bought and sold freely just like any other asset. This gives users total freedom to do as they please with their eBook once purchased, something that is rarely allowed with mainstream platforms. At surface level this seems a noble goal, and it is easy to get behind the mission of book.io. However, after digging deeper into the technicalities of how the platform operates, it becomes clear that the promise of decentralisation is more of a marketing strategy than a functional reality. The platform is totally reliant on centralised infrastructure, meaning that the entire premise of book.io, true ownership of eBooks, is a lie. You will own no books, and be happy.</p>
+<h3>DEAs</h3>
+<p>To understand the flaws of book.io, we need to understand Decentralised Encrypted Assets. DEAs are at the core of book.io’s platform, and the key to both its potential and its shortcomings. Everything on the blockchain is totally public and can be viewed by any blockchain explorer. It is a public ledger and must be public to allow nodes to reach consensus on the state of the chain. This means that any asset minted on the blockchain is also public, which poses a big problem for selling any kind of secret or copyrighted data, such as an eBook. If the eBook is publicly available on the blockchain, there is no incentive to purchase it as it is essentially free. This has long been a problem in the blockchain space, preventing NFTs from ever being a viable way of monetising intellectual property. Instead, they have become speculative assets and are only bought and sold for financial gain. This is the problem that book.io aims to solve with DEAs. A DEA is essentially an encrypted NFT - The NFT represents ownership of a certain book and contains instructions, references and metadata. The metadata contains information about the book such as an identifier, title and cover, and the references link to the encrypted book content on decentralised storage such as IPFS. This is how DEAs protect the content of the book from piracy - they are stored in an encrypted form on IPFS. Without the decryption key, the content is unreadable. The instructions fetch the encrypted key file, allowing access to the encrypted book content on IPFS. This is where the idea of DEAs starts to fall apart. The encrypted key file needs to be decrypted in order for the content of the book to become available, but there is no possible way of storing this on the blockchain or decentralised storage. Book.io are deliberately opaque about how the key management works, but it can only be assumed that the platform uses a centralised KMS to retrieve the decryption key. To read a book, the user connects their wallet, Book.io verifies NFT ownership, retrieves the encrypted data, and then Book.io's servers use the centrally-managed key to decrypt the book and display it. Access depends entirely on the Book.io platform being operational, trustworthy, and willing to grant access. If Book.io shuts down, changes terms, or restricts access, the user loses the ability to read their "owned" book. This defeats the purpose of Book.io entirely, as users are still reliant on a centralised entity to give them access to their book every time. While the underlying token representing ownership of a book is decentralised, that token is completely meaningless without Book.io’s centralised access control, negating any benefit of using blockchain technology. In many ways Book.io gives users even less control than mainstream eBook platforms.</p>
+<h3>Reselling Free Books</h3>
+<p>The shortcomings of DEAs are far from the only problems with Book.io. If you open the website, you will notice that a large amount of the books being sold are written by authors that died over 70 years ago and are therefore in the public domain. It's deeply unethical to profit from public domain works under the guise of offering "ownership" via NFTs. Book.io is essentially reselling free cultural heritage, potentially misleading some buyers into paying for something readily available at no cost. This is often justified by the fact that Book.io is still a small platform with a limited number of living authors willing to sell their books. It is understandable to use public domain books to kick-start the platform and demonstrate its utility, but now there are lots of authors publishing on Book.io, it seems redundant. Another justification I have heard many times is that Book.io is somehow protecting these books from censorship by preserving them on the blockchain. This is totally undermined by the centralised key management explained earlier - the content that is being “preserved” on the blockchain is meaningless without the keys. There is also no need to tokenise books on a blockchain in order to preserve them - a better approach would be to just upload them to decentralised storage such as IPFS unencrypted.</p>
+<h3>Speculation and Gamification</h3>
+<p>The goals of the Book.io team are very clear: make maximum profit while giving users the false idea of ownership. This is very evident with the gamification and gambling elements of purchasing books on the platform. When a book is first purchased/minted, the customer receives a random variation of the AI-generated cover art. Some of these cover artworks are incredibly rare and sell for far more than the minting price. This adds no value to the experience as a reader, and the only purpose it serves is to drive up the price of these rare cover variations on secondary markets. Books have become speculative assets. This is fine for people looking to profit off the platform by speculating on prices but directly takes away from the experience of readers as it is likely to make book prices highly volatile. Many books on Book.io are in short supply and are seen as collector’s items, totally out of reach of the average reader. Many self-publishing platforms today have print-on-demand or unlimited copies of eBooks available, meaning that the book can always be purchased for a reasonable price. With Book.io’s fixed supply, the prices of books can skyrocket very quickly. It is clear that investment potential is frequently prioritised over utility.</p>
+<h3>Conclusion</h3>
+<p>Book.io presents a vision of decentralised digital book ownership, but a closer examination reveals a system that, in practice, offers no advantages over traditional, centralised platforms. The main issue is its reliance on centralised infrastructure for key management and book decryption. While the ownership token is on the blockchain, the actual access to the book content remains in the hands of Book.io. This negates the benefits of decentralisation, as users are still dependent on a central authority to access their books.</p>
+<p>Furthermore, the platform's approach raises ethical concerns. The sale of public domain books, the encouragement of speculation through rare cover variations, and the creation of artificial scarcity all detract from the user experience.</p>
+<p>In conclusion, while blockchain technology has potential for revolutionising digital content ownership, Book.io's solution is no better than centralised alternatives. Ultimately, Book.io offers a centralised platform with a decentralised facade, sacrificing genuine decentralisation for speculative hype and centralised control. It's a step backward, not a revolution, for digital book ownership.</p>
+  </div><!-- /.entry-content -->
+  <div class="post-info">
+    <p style="text-align: right">
+      Wed 05 March 2025
+    </time>
+    </p>
+  </div><!-- /.post-info -->
+</section>
+</br>
+  <div id="footer">
+    <p>-------------------------------<br/>
+    <a href="https://github.com/djeanql">Github</a> <a href="https://www.youtube.com/@djeanql">Youtube</a> <a rel="mastodon" href="mailto:djeanql@tutamail.com">Email</a></p>
+  </div>
+</body>
+</html>
