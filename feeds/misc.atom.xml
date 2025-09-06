@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Zeno</title><link href="/" rel="alternate"/><link href="/feeds/all.atom.xml" rel="self"/><id>/</id><updated>2025-06-02T00:00:00+01:00</updated><entry><title>Delayed Proof-of-Work</title><link href="/delayed-proof-of-work.html" rel="alternate"/><published>2025-06-02T00:00:00+01:00</published><updated>2025-06-02T00:00:00+01:00</updated><author><name>Zeno</name></author><id>tag:None,2025-06-02:/delayed-proof-of-work.html</id><summary type="html">&lt;h1&gt;Delayed Proof-of-Work (DPoW)&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Zeno - misc</title><link href="/" rel="alternate"/><link href="/feeds/misc.atom.xml" rel="self"/><id>/</id><updated>2025-06-02T00:00:00+01:00</updated><entry><title>Delayed Proof-of-Work</title><link href="/delayed-proof-of-work.html" rel="alternate"/><published>2025-06-02T00:00:00+01:00</published><updated>2025-06-02T00:00:00+01:00</updated><author><name>Zeno</name></author><id>tag:None,2025-06-02:/delayed-proof-of-work.html</id><summary type="html">&lt;h1&gt;Delayed Proof-of-Work (DPoW)&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;A theoretical consensus mechanism for energy-efficient, time-regulated mining.&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
